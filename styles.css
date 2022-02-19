@@ -1,0 +1,318 @@
+/*****NAVBAR*****/
+.navbar-nav {
+  margin-left: 85%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.nav-link {
+  width: 150px;
+}
+body{
+  background-color: #FAFAFA;
+}
+/**.home:hover{
+  background-color: #1174EE;
+
+}***/
+/***SIDE NAVIGATION****/
+/**.col-sm-1,.col-lg-1,.col-md-1{
+  width: 4.166%;
+  background-color: white;
+}****/
+.side-navbar {
+  width: 45px;
+  height: 100%;
+  position: fixed;
+  margin-left: -300px;
+  background-color:white;
+  transition: 0.5s;
+}
+.sidenav{
+  width:45px;
+  padding-left: 1%;
+}
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  background-color: #ffffff26;
+}
+.my-container {
+  transition: 0.4s;
+}
+.active-nav {
+  margin-left: 0;
+}
+/* for main section */
+.active-cont {
+  margin-left:100px;
+}
+#menu-btn {
+  background-color:#FCDDEC;
+  color: #fff;
+  margin-left: -62px;
+}
+.home1{
+  margin-top:190%;
+}
+.home {
+  width: 25px;
+  margin-bottom:50%;
+}
+.chat{
+  margin-bottom:370%;
+}
+.icon{
+  margin-top:80%;
+}
+.mobile{
+  margin-top: 25%;
+}
+
+.iconwidth {
+  width: 3rem;
+}
+.marginbottom{
+  margin-bottom:30%;
+}
+.marginbottom1{
+  margin-bottom: 55%;
+}
+/****Doctor card****/
+.cardcontainer {
+  padding: 0;
+}
+
+.doctorcolumn {
+  margin-left:5%;
+}
+
+.doccard {
+  border-radius: 15px;
+  box-shadow: 0 1px 16px #DEE6F3;
+  width: 90%;
+}
+
+.doctortitle {
+  font-size: 18px;
+}
+
+.headertext {
+  margin-left: 5%;
+  font-weight: bolder;
+  border-radius: 15px;
+  margin-top: 3%;
+}
+
+.Calendar {
+  width: 20px;
+  margin-right: 1%;
+}
+
+.mainbody {
+  margin-top: 5%;
+}
+
+.Appointment1 {
+  font-size: 25px;
+  margin-bottom: 5%;
+}
+
+.doc-img {
+  border-radius: 100%;
+  width: 100%;
+}
+
+.Experience {
+  width: 90px;
+}
+
+.aboutpara {
+  color: #7B7A79;
+  margin-bottom: 10px;
+}
+
+.fontpara {
+  font-size: 12px;
+}
+
+.healthrow {
+  margin-top: 2%;
+}
+
+.time {
+  width: 15px;
+  margin-right: 3px;
+}
+
+.waitingbutton {
+  padding: 2% 12% 2% 12%;
+  background: linear-gradient(180deg, #088DFF 0%, #066AC3 100%);
+  box-shadow: 4.24544e-16px 6.93333px 13.8667px rgba(51, 51, 51, 0.1245);
+  border-radius: 24px;
+  margin-left: 18%;
+}
+
+/****Ongoing Card*****/
+.ongoingcard {
+  background: #FFFFFF;
+  box-shadow: 1px 10px 23px #EBEEF2;
+  border-radius: 18px;
+}
+
+.cardhead {
+  font-size: 16px;
+}
+
+.para {
+  font-size: 12px;
+}
+/****SecondCol****/
+.secondcol {
+  margin-top: 5%;
+}
+
+.secondcard {
+  margin-top: 5%;
+}
+.Seeall{
+  color:#585858;
+  font-size: 12px;
+}
+.arrow{
+  width:10%;
+  margin-left:8%;
+}
+.arrow1{
+  width:4%;
+  margin-left: 60%;
+}
+.Seeall1{
+  margin-left: 2%;
+  color:#585858;
+  font-size: 15px;
+}
+.prescriptioncol {
+  background: #FFFFFF;
+  box-shadow: 1px 10px 23px #EBEEF2;
+  border-radius: 18px;
+}
+
+.prescrip {
+  font-size: 12px;
+  color: #585858;
+}
+
+/****Vitals***/
+.heartrate {
+  width: 100%;
+}
+
+.vitalcard {
+  background: #FFFFFF;
+  box-shadow: 1px 10px 23px #EBEEF2;
+  border-radius: 18px;
+}
+.sharelink{
+  width:10%;
+  margin-left:30%;
+}
+@media only screen and (max-width:580px){
+  .doc-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .doccard{
+    margin-left: auto;
+    margin-right: auto;
+    width:60%;
+    margin-bottom: 5%;
+  }
+  .ongoingcard{
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    margin-bottom: 4%;
+  }
+  .Appointment1{
+    text-align: center;
+
+  }
+  .vitalcard{
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    margin-bottom: 5%;
+  }
+  .waitingbutton{
+    margin-left: 30px;
+  }
+  .Seeall{
+    color:#585858;
+    font-size: 12px;
+  }
+  .arrow{
+    width:4%;
+    margin-left:8%;
+  }
+}
+@media only screen and (min-width:580px) and (max-width:1000px) {
+  .doctorcolumn{
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+  }
+  .doc-img{
+    width:100%;
+  }
+  .doccard{
+    margin-left: auto;
+    margin-right: auto;
+    width:75%;
+    margin-bottom: 5%;
+  }
+  .ongoingcolumn{
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+
+  }
+  .vitalcard{
+    margin-bottom: 5%;
+  }
+  .ongoingcard{
+    margin-left: auto;
+    margin-right: auto;
+    width:90%;
+    margin-bottom: 4%;
+  }
+  .Appointment1{
+    text-align: center;
+  }
+  .arrow{
+    width:3%;
+  }
+  .arrow1{
+    width:2%;
+    margin-left: 90%;
+  }
+  .Seeall1{
+    margin-left: 2%;
+    color:#585858;
+    font-size: 15px;
+  }
+  .sharelink{
+    width:5%;
+    margin-left:70%;
+  }
+}
+
+@media only screen and (min-width:1800px) and (max-width:2240px){
+  .sharelink{
+    width:5%;
+    margin-left:60%;
+  }
+
+}

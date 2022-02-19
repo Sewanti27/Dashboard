@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!--Bootstrap CSS--->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <!---FontawsomeKit--->
+  <script src="https://kit.fontawesome.com/b14d39d1f9.js" crossorigin="anonymous"></script>
+</head>
+<main>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#C4C4C4;">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <div class="nav-link active" aria-current="page" href="#" style="background-color:#FCDDEC; color:#FCDDEC;">Home</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column" id="sidebar">
+      <ul class="nav flex-column text-white w-100">
+        <li href="#" class="sidenav nav-link">
+          <span class="mx-2"><img class="home1 home" src="Images\homeicon.png" alt=""></span>
+        </li>
+        <li href="#" class="sidenav nav-link">
+          <span class="mx-2"><img class="home  icon sthetiscope" src="Images\sthetiscope.png" alt=""></span>
+        </li>
+        <li href="#" class="sidenav nav-link">
+          <span class="mx-2"><img class="home icon " src="Images\Calicon.png" alt=""></span>
+        </li>
+        <li href="#" class="sidenav nav-link">
+          <span class="mx-2"><img class="home chat icon " src="Images\Chaticon.png" alt=""></span>
+        </li>
+        <li href="#" class="sidenav nav-link">
+          <span class="mx-2"><img class="home chat icon " src="Images\Settingicon.png" alt=""></span>
+        </li>
+        <li href="#" class="sidenav nav-link">
+          <span class="mx-2"><img class="mobile home chat icon " src="Images\mobile.png" alt=""></span>
+        </li>
+
+      </ul>
+    </div>
+    <div class="p-1 my-container active-cont">
+      <a class="btn border-0" id="menu-btn">
+        <i class="bx bx-menu"></i>
+      </a>
+    </div>
+  <div class="container-fluid">
+    <div class="row mainbody">
+      <div class="doctorcolumn col-sm-12 col-md-12 col-lg-4">
+        <h1 class="Appointment1">Upcoming Appointments</h1>
+        <div class="doccard card">
+          <div class="headertext card-title"><img class="Calendar" src="Images\Calendar.png" alt="">Ongoing Appointment</div>
+          <div class="card-body">
+            <div class="cardcontainer container-fluid">
+              <div class="row">
+                <div class="col-sm-3 col-md-3 col-lg-3"><img class="doc-img" src="Images\Doc.png" alt=""></div>
+                <div class="col-sm-9 col-md-9 col-lg-9">
+                  <h5 class="doctortitle card-title">Dr. Anuj Verma</h5>
+                  <p class="card-text fontpara aboutpara">General Physician |MBBS, NBD</p>
+                  <img class="Experience" src="Images\Experience.png" alt="">
+                </div>
+              </div>
+              <div class="healthrow row">
+                <div class="col-sm-7 col-md-7 col-lg-7">
+                  <p class="fontpara">Health Concern: <strong>Blocked Nose</strong></p>
+                </div>
+                <div class="col-sm-5 col-md-5 col-lg-5">
+                  <p class="fontpara aboutpara"><img class="time" src="Images\time.png" alt="">starting in 12 mins</p>
+                </div>
+              </div>
+            </div>
+            <a href="#" class=" waitingbutton btn btn-primary">Enter Waiting Room</a>
+          </div>
+        </div>
+      </div>
+      <div class="ongoingcolumn col-sm-7 col-md-7 col-lg-7">
+        <h1 class="Appointment1">Ongoing Medication</h1>
+        <div class="cardcontainer container-fluid">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-4">
+              <div class="card ongoingcard">
+                <div class="card-body">
+                  <h5 class=" cardhead card-title">Galvus Met 50/500 mg</h5>
+                  <h6 class="para card-subtitle mb-2 text-muted">2 pills / day</h6>
+                  <p class="para card-text">16 / 56 days <span style="color:blue;">(8 weeks)</span></p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+              <div class="card ongoingcard">
+                <div class="card-body">
+                  <h5 class=" cardhead card-title">Galvus Met 50/500 mg</h5>
+                  <h6 class="para card-subtitle mb-2 text-muted">2 pills / day</h6>
+                  <p class="para card-text">16 / 56 days <span style="color:blue;">(8 weeks)</span></p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+              <div class="card ongoingcard">
+                <div class="card-body">
+                  <h5 class=" cardhead card-title">Galvus Met 50/500 mg</h5>
+                  <h6 class="para card-subtitle mb-2 text-muted">2 pills / day</h6>
+                  <div class="row">
+                    <div class="col-sm-8 col-md-8 col-lg-8">
+                      <p class="para card-text">16 / 56 days <span style="color:blue;">(8 weeks)</span></p>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                      <a class="Seeall" href="#">See all  <img class="arrow" src="Images\Arrow.png" alt=""></a>
+                    </div>
+
+                  </div>
+
+
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+        <div class="secondcol row">
+          <div class="col-sm-12 col-lg-4">
+            <h1 class="Appointment1">Reports</h1>
+            <div class="col-12">
+              <div class="card ongoingcard">
+                <div class="card-body">
+                  <h5 class="card-title">Blood Test <img class="sharelink" src="Images\Sharelink.png" alt=""></h5>
+                  <h6 class="card-subtitle mb-2 text-muted">iron</h6>
+                  <p class="para card-text">Updated on : 22 May ‘20</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="card ongoingcard secondcard">
+                <div class="card-body">
+                  <h5 class="card-title">Blood Test <img class="sharelink" src="Images\Sharelink.png" alt=""></h5>
+                  <h6 class="card-subtitle mb-2 text-muted">iron</h6>
+                  <div class="row">
+                    <div class="col-sm-8 col-md-8 col-lg-8">
+                      <p class="para card-text">Updated on : 22 May ‘20</p>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                      <a class="Seeall" href="#">See all  <img class="arrow" src="Images\Arrow.png" alt=""></a>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-sm-12 col-lg-4">
+            <h1 class="Appointment1">Vitals</h1>
+            <div class="vitalcard card">
+              <div class="card-body">
+                <p style="color:#1174EE">Weight</p>
+                <h5 class="card-title">69.4 kg</h5>
+                <h6 class="card-subtitle mb-2" style="color:black">BMI 26.0</h6>
+                <p class="para card-text" style="color:grey">Updated on : 22 May ‘20</p>
+                <hr>
+                <p style="color:#1174EE">Heart Rate</p>
+                <img class="heartrate" src="Images\HeartRate.png" alt="">
+                <h5>64 BPM</h5>
+                <h6 style="color:black">Normal</h6>
+                <p class="para" style="color:grey">Updated on : 22 May ‘20</p>
+                <a class="Seeall1" href="#">See all  <img class="arrow1" src="Images\Arrow.png" alt=""></a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-sm-12 col-lg-4">
+            <h1 class="Appointment1">Prescriptions</h1>
+            <div class="prescriptioncol card">
+              <div class="card-body">
+                <a class="prescrip" href="#">Click here to check your prescription</a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+    <!---Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</main>
+
+</html>
